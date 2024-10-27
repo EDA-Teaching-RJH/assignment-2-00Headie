@@ -11,3 +11,4 @@ while guess != number:
         print("Guess higher, try again.")
     elif guess > number:
         print("Guess lower, try again.")
+print(f"Well done! {number} was my number")

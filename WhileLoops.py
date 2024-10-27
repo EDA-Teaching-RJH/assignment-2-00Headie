@@ -7,3 +7,7 @@ guess = -1
 while guess != number:
     guess_str = input("Guess the number:")
     guess = int(guess_str)
+    if guess < number:
+        print("Guess higher, try again.")
+    elif guess > number:
+        print("Guess lower, try again.")

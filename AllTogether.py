@@ -8,4 +8,7 @@ while i < len(numbers):
         numbers.pop(i)
     else:
         i += 1
-print("List of odd numbers:", numbers)
+numbers.sort()
+print("List of sorted odd numbers:", numbers)
+
+#Decided to sort as it looks better
